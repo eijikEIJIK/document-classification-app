@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="top">
+ <div class="container">
+  <p class="text">画像フォルダをアップロードしてください</p>
+  <div class="upload-form">
+    <form action="/upload" method="POST" enctype="multipart/form-data"> 
+      <input type="file" name="file" value="フォルダを選択" webkitdirectory/>
+      <input type="submit"　class="upload-btn" value="アップロード"/>
+    </form>
+  </div>
+  
+ </div> 
+</div>
+
+
+{% endblock %}

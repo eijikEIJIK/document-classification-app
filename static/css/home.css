@@ -1,0 +1,62 @@
+*{
+    text-decoration: none;
+    margin:0;
+    font-size:1.1rem;
+}
+
+a{
+    color:black;
+}
+.container{
+    max-width:1200px;
+    padding:30px;
+    margin:0 auto;
+}
+
+header{
+    background-color: rgb(61, 65, 255);
+}
+
+header h1{
+    width:fit-content;
+    padding:20px;
+    margin:0 auto;
+}
+
+header a{
+    color:white;
+    font-size:1.5rem;
+}
+
+.top .text{
+    font-weight: bold;
+    text-align:center;
+}
+.top form{
+    display:block;
+    text-align: center;
+}
+.top .upload-btn{
+    display:inline-block;
+    background-color: rgb(61, 65, 255);
+    color:white;
+}
+.top .upload-form{
+    padding:10px;
+}
+.download .container p{
+    text-align:center;
+    font-weight:bold;
+}
+.download .download-btn{
+    text-align: center;
+    width:300px;
+    display:block;
+    background-color: rgb(61, 65, 255);
+    padding:20px 30px;
+    color:white;
+    font-weight: bold;
+    margin:20px auto;
+    border-radius:20px;
+}
+
